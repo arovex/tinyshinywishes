@@ -1,0 +1,34 @@
+# ✨ Tiny Shiny Wishes
+
+A tiny, glittering birthday wish rendered with WebGL particles — no libraries, no build step.
+
+Open `index.html` in a browser (or serve the folder) and watch the show:
+
+- a spiral particle galaxy
+- **HAPPY BIRTHDAY** spelled out in stardust
+- a two-tier cake with three flickering candles
+- a glowing heart with **MAKE A WISH**
+- fireworks, embers, and drifting glitter throughout
+
+The sequence loops on its own. Tap/click anywhere for fireworks, or press **Space** for a burst.
+
+## Run it
+
+Just open `index.html`. For a local server:
+
+```bash
+npx serve .
+```
+
+## Files
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Page shell, canvas, hint text |
+| `birthday.js` | Particle engine and animation timeline |
+
+## Notes
+
+Runs entirely in the browser on WebGL; the only requirement is JavaScript and WebGL enabled. Scales to fit desktop and mobile screens.
+
+Made with a lot of tiny shiny things.
