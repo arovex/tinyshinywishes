@@ -1,5 +1,7 @@
 # ✨ Tiny Shiny Wishes
 
+[![Live Preview](https://img.shields.io/badge/%E2%9C%A8%20Live%20Preview-Open%20the%20show-ff69b4?style=for-the-badge)](https://arovex.github.io/tinyshinywishes/)
+
 A tiny, glittering birthday wish rendered with WebGL particles — no libraries, no build step.
 
 Open `index.html` in a browser (or serve the folder) and watch the show:
@@ -30,6 +32,8 @@ Just open `index.html`. For a local server:
 ```bash
 npx serve .
 ```
+
+Or see it live: **https://arovex.github.io/tinyshinywishes/**
 
 ## Files
 
