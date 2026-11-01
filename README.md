@@ -12,6 +12,17 @@ Open `index.html` in a browser (or serve the folder) and watch the show:
 
 The sequence loops on its own. Tap/click anywhere for fireworks, or press **Space** for a burst.
 
+## Get the code
+
+Clone the repo and step into it:
+
+```bash
+git clone https://github.com/arovex/tinyshinywishes.git
+cd tinyshinywishes
+```
+
+Then open `index.html` — that's it.
+
 ## Run it
 
 Just open `index.html`. For a local server:
@@ -26,9 +37,14 @@ npx serve .
 | --- | --- |
 | `index.html` | Page shell, canvas, hint text |
 | `birthday.js` | Particle engine and animation timeline |
+| `LICENSE` | MIT license |
 
 ## Notes
 
 Runs entirely in the browser on WebGL; the only requirement is JavaScript and WebGL enabled. Scales to fit desktop and mobile screens.
+
+## License
+
+Released under the [MIT License](LICENSE) © 2026 arovex. Use it, remix it, share it.
 
 Made with a lot of tiny shiny things.
